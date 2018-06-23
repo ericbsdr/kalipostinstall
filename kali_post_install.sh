@@ -14,6 +14,8 @@ bundle install
 # Reconnoitre
 cd /opt
 git clone https://github.com/codingo/Reconnoitre.git
+
+# Responder
 git clone https://github.com/lgandx/Responder.git
 
 # python - pip
