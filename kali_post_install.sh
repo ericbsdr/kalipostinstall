@@ -45,7 +45,7 @@ pip install -r requirements.txt
 ./install.sh
 
 # veil
-apt install veil
+apt install -y veil
 cd /usr/share/veil
 ./Veil.sh
 
