@@ -49,7 +49,5 @@ cd /opt/Empire
 # veil
 apt install -y veil
 cd /usr/share/veil
-./Veil.sh
-
-
+./Veil.py
 
