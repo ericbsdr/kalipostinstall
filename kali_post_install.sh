@@ -6,8 +6,8 @@ apt install -y ruby-dev
 cd /opt
 git clone https://github.com/iagox86/dnscat2.git
 cd dnscat2/server
-apt install gcc make
-gem install bundler
+apt install -y gcc make
+gem install -y bundler
 bundle install
 # Démarrage avec & ruby ./dnscat2.rb
 
@@ -20,11 +20,12 @@ git clone https://github.com/lgandx/Responder.git
 
 # python - pip
 apt install -y python-pip #python-dev build-essential
-pip install --upgrade pip
-pip install --upgrade virtualenv
+pip install -y --upgrade pip
+pip install -y --upgrade virtualenv
 
 
 # NtlmRelayX
+cd /opt
 pip install ldap3==1.4.0
 pip install ldap3 --upgrade
 git clone https://github.com/CoreSecurity/impacket.git
@@ -38,6 +39,7 @@ cd ~
 #powershell empire
 cd /opt
 git clone https://github.com/EmpireProject/Empire.git
+cd Empire
 cd setup
 pip install -r requirements.txt
 ./install.sh
