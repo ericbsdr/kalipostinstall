@@ -43,6 +43,8 @@ cd Empire
 cd setup
 pip install -r requirements.txt
 ./install.sh
+cd /opt/Empire
+./setup/cert.sh
 
 # veil
 apt install -y veil
