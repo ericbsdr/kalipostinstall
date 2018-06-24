@@ -20,8 +20,8 @@ git clone https://github.com/lgandx/Responder.git
 
 # python - pip
 apt install -y python-pip #python-dev build-essential
-pip install -y --upgrade pip
-pip install -y --upgrade virtualenv
+pip install --upgrade pip
+pip install --upgrade virtualenv
 
 
 # NtlmRelayX
